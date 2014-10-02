@@ -7,7 +7,7 @@ def prime_check(num):
 def main():
     num = 0
     prime_pair = 0
-    while prime_pair <= 50:
+    while prime_pair < 50:
         prime1 = prime_check(num)
         prime2 = prime_check(num + 2)
         num = num + 1

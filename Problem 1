@@ -1,0 +1,17 @@
+def divisable_check(num):
+    if num % 3 == 0:
+        return num
+    if num % 5 == 0:
+        return num
+    return 0
+
+def main():
+    num = 3
+    numsum = 0
+    while num < 1000:
+        numsum = numsum + divisable_check(num)
+        print numsum
+        num = num + 1
+
+if __name__ == '__main__':
+    main()
